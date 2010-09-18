@@ -1,0 +1,37 @@
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\Test Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\Test Server.pdb
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\MyGame.dll
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\Player.IO Development Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Debug\MyGame.pdb
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Debug\ResolveAssemblyReference.cache
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Debug\Test Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Debug\Test Server.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Debug\Test Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Debug\Test Server.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.dll
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO Development Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.dll
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO Development Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Debug\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Debug\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Debug\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Debug\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Debug\MyGame.dll
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Debug\MyGame.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Debug\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Debug\Test Server.pdb

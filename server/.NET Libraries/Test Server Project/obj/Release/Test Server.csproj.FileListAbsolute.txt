@@ -1,0 +1,55 @@
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\Player.IO Development Server.exe
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.dll
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+D:\Downloads\Flash\Game Barda\Flash Combo Package.vKWkm_WGyfJmfclX30iLBw\NewGame\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\Player.IO Development Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.dll
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+D:\PRSoluções\Softwares\Evangel Flash\servidor\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\Player.IO Development Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.dll
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO Development Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.dll
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
