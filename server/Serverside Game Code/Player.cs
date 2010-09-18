@@ -45,7 +45,7 @@ namespace Engine
             distance = 2;
             tweenVelocity = 0.4;
             loggedIn = false;
-            type = "char_0008";
+            type = "char_00001";
             lastMovement = DateTime.Now;
             movementDelay = 0.3;
             administrator = false;

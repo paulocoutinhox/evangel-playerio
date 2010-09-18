@@ -194,14 +194,14 @@ namespace Engine
                         if (username != "")
                         {
                             // Verify if is administrator
-                            if (username == "##prchakal##")
+                            if (username == "##ADMIN-MASTER##")
                             {
                                 // Set administrator info
                                 player.name = "GameMaster";
                                 player.posX = map.posIniX;
                                 player.posY = map.posIniY;
                                 player.posZ = map.posIniZ;
-                                player.type = "char_0007";
+                                player.type = "char_00001";
                                 player.administrator = true;
                             }
                             else
