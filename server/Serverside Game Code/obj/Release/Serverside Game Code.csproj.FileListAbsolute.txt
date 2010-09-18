@@ -19,13 +19,6 @@ D:\workspace_flex\EvangelFlex\server\Serverside Game Code\bin\Release\Player.IO 
 D:\workspace_flex\EvangelFlex\server\Serverside Game Code\obj\Release\ResolveAssemblyReference.cache
 D:\workspace_flex\EvangelFlex\server\Serverside Game Code\obj\Release\MyGame.dll
 D:\workspace_flex\EvangelFlex\server\Serverside Game Code\obj\Release\MyGame.pdb
-D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\MyGame.dll
-D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\MyGame.pdb
-D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\Player.IO GameLibrary.dll
-D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\Player.IO GameLibrary.xml
-D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\ResolveAssemblyReference.cache
-D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\MyGame.dll
-D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\MyGame.pdb
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Serverside Game Code\bin\Release\MyGame.dll
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Serverside Game Code\bin\Release\MyGame.pdb
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Serverside Game Code\bin\Release\Player.IO GameLibrary.xml
@@ -34,7 +27,11 @@ C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUu
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Serverside Game Code\obj\Release\MyGame.pdb
 C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\bin\Release\MyGame.dll
 C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\bin\Release\MyGame.pdb
-C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\bin\Release\Player.IO GameLibrary.xml
 C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\obj\Release\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\obj\Release\MyGame.dll
 C:\Documents and Settings\Administrador\Desktop\server\Serverside Game Code\obj\Release\MyGame.pdb
+D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\MyGame.dll
+D:\workspace_flex\Evangel\server\Serverside Game Code\bin\Release\MyGame.pdb
+D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\MyGame.dll
+D:\workspace_flex\Evangel\server\Serverside Game Code\obj\Release\MyGame.pdb

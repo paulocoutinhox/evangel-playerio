@@ -154,15 +154,15 @@
 			if (GameObjects.PLAYER && playerId == GameObjects.PLAYER.playerId)
 			{
 				player = GameObjects.PLAYER;
-				player.unlockPlayerMovement();
-				return;
+				//player.unlockPlayerMovement();
+				//return;
 			}
 			else
 			{
 				if (GameObjects.PLAYERS[playerId])
 				{
 					player = GameObjects.PLAYERS[playerId];
-				}
+				}				
 			}
 			
 			//set the player attributes
@@ -174,10 +174,7 @@
 				player.playerDirection     = direction;
 				player.playerTweenVelocity = tweenVelocity;
 					
-				player.move(direction);
-				
-				player.x                   = posx;
-				player.y             	   = posy;
+				player.move(direction, posx, posy);
 				
 			}
 		}
@@ -199,15 +196,13 @@
 		 */
 		private function messageUsersJoined(m:Message, playerId:uint, name:String, level:uint, hp:uint, mp:uint, exp:uint, posx:uint, posy:uint, posz:uint, direction:uint, tweenVelocity:Number, type:String):void
 		{
-			GameObjects.PLAYERS = new Array();
-			
 			var qtd:uint = m.length;
 			
 			for (var i:uint = 0; i < qtd; i += 12)
 			{
 				var id:uint = m.getUInt(i);
 				
-				if (GameObjects.PLAYER && id != GameObjects.PLAYER.playerId && !GameObjects.PLAYERS[id])
+				if (GameObjects.PLAYER && id != GameObjects.PLAYER.playerId && getPlayerById(id) == null)
 				{
 						
 					var player:Player = new Player("char_00001");
@@ -362,8 +357,6 @@
 		 */
 		private function messageNoUsersJoined(m:Message, playerId:uint):void
 		{
-			GameObjects.PLAYERS = new Array();
-			
 			Logger.debug("Total of online players here: " + GameObjects.PLAYERS.length);
 			
 			//get the joined npcs
@@ -408,9 +401,47 @@
 		 * @param	m
 		 * @param	playerId		 
 		 */
-		private function messagePlayerMoveDenied(m:Message, playerId:uint):void
+		private function messagePlayerMoveDenied(m:Message, playerId:uint, posx:uint, posy:uint, posz:uint, direction:uint):void
 		{
+			GameObjects.PLAYER.playerState = Player.PLAYER_STATE_STAND;
 			GameObjects.PLAYER.unlockPlayerMovement();
+			return;
+			
+			//get the player
+			var player:Player;
+			
+			if (GameObjects.PLAYER && playerId == GameObjects.PLAYER.playerId)
+			{
+				player = GameObjects.PLAYER;
+			}
+			else
+			{
+				if (GameObjects.PLAYERS[playerId])
+				{
+					player = GameObjects.PLAYERS[playerId];
+				}
+			}
+			
+			//set the player attributes
+			if (player)
+			{
+				/*
+				player.playerState = Player.PLAYER_STATE_STAND;
+				player.unlockPlayerMovement();				
+				return;
+				*/
+				
+				player.playerPosX          = posx;
+				player.playerPosY    	   = posy;
+				player.playerPosZ    	   = posz;
+				player.playerDirection     = direction;
+				
+				//player.x                   = posx;
+				//player.y            	   = posy;
+				
+				player.playerState = Player.PLAYER_STATE_STAND;
+				player.unlockPlayerMovement();
+			}
 		}
 		
 		/**
@@ -422,13 +453,13 @@
 		{
 			if (playerId == GameObjects.PLAYER.playerId)
 			{
-				GameObjects.PLAYER.stop(GameObjects.PLAYER.playerDirection);
+				GameObjects.PLAYER.playerState = Player.PLAYER_STATE_STAND;
 			}
 			else
 			{
 				if ( GameObjects.PLAYERS[playerId] )
 				{				
-					GameObjects.PLAYERS[playerId].stop(GameObjects.PLAYERS[playerId].playerDirection);				
+					GameObjects.PLAYERS[playerId].playerState = Player.PLAYER_STATE_STAND;				
 				}
 			}
 		}
@@ -643,6 +674,18 @@
 			GameObjects.MAIN.disconnectedGame();
 		}
 		
+		private function getPlayerById(id:uint):Player
+		{
+			for (var playerId:String in GameObjects.PLAYERS)
+			{
+				if ( playerId == String(id) )
+				{
+					return GameObjects.PLAYERS[playerId]; 
+				}
+			}
+			
+			return null;
+		}
 		
 		
 		/**
@@ -650,7 +693,7 @@
 		 */
 		public function getConnection():Connection { return connection; }
 		public function setConnection(value:Connection):void { connection = value; }
-		
+			
 	}
-
+	
 }

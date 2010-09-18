@@ -23,6 +23,7 @@ package game.util
 		public static var FACEBOOK:Facebook;
 
 		public static var PLAYER_IO_GAME_ID:String = "evangel-6mnllmjwuml67lgcnts6a";
+		public static var PLAYER_IO_IP_DEBUG:String = "localhost";
 		
 		public static var BULK_LOADER_NAME:String = "loader";	
 		
@@ -31,6 +32,7 @@ package game.util
 		public static var SCREEN_FRAME_RATE:int = 60;
 		
 		public static var LOGGED_IN:Boolean = false;
+		
 		
 		private static function getURLBase():String
 		{

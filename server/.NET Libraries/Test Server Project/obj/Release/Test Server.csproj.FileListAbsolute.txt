@@ -28,16 +28,6 @@ D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\bin\Rele
 D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
 D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
 D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO Development Server.exe
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.dll
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Player.IO GameLibrary.xml
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb
 C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
@@ -53,3 +43,10 @@ C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Serve
 C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
 C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
 C:\Documents and Settings\Administrador\Desktop\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\ResolveAssemblyReference.cache
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\Test Server.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.dll
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Release\MyGame.pdb
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.exe
+D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Release\Test Server.pdb

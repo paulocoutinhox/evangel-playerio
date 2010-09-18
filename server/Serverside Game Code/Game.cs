@@ -119,6 +119,11 @@ namespace Engine
 
                         if (currentDateTime >= necessaryDateTime)
                         {
+                            //set current movement date/time
+                            player.lastMovement = DateTime.Now;
+
+                            bool playerMoved = false;
+
                             //verify what direction the player want move
                             switch (message.GetInt(0))
                             {
@@ -129,6 +134,16 @@ namespace Engine
                                         if ((player.posY - player.distance) >= 0)
                                         {
                                             player.posY -= player.distance;
+                                            playerMoved = true;
+                                        }
+                                        else
+                                        {
+                                            /*
+                                            player.lastMovement = DateTime.Now;
+                                            player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
+
+                                            return;
+                                            */
                                         }
 
                                         break;
@@ -141,6 +156,16 @@ namespace Engine
                                         if ((player.posX + player.distance) <= map.width)
                                         {
                                             player.posX += player.distance;
+                                            playerMoved = true;
+                                        }
+                                        else
+                                        {
+                                            /*
+                                            player.lastMovement = DateTime.Now;
+                                            player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
+
+                                            return;
+                                            */
                                         }
 
                                         break;
@@ -153,6 +178,16 @@ namespace Engine
                                         if ((player.posY + player.distance) <= map.height)
                                         {
                                             player.posY += player.distance;
+                                            playerMoved = true;
+                                        }
+                                        else
+                                        {
+                                            /*
+                                            player.lastMovement = DateTime.Now;
+                                            player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
+
+                                            return;
+                                            */
                                         }
 
                                         break;
@@ -165,21 +200,35 @@ namespace Engine
                                         if ((player.posX - player.distance) >= 0)
                                         {
                                             player.posX -= player.distance;
+                                            playerMoved = true;
+                                        }
+                                        else
+                                        {
+                                            /*
+                                            player.lastMovement = DateTime.Now;
+                                            player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
+
+                                            return;
+                                            */
                                         }
 
                                         break;
                                     }
                             }
 
-                            //set current movement date/time
-                            player.lastMovement = DateTime.Now;
-
-                            //send player details                            
-                            Broadcast("PLAYER_MOVE", player.Id, player.posX, player.posY, player.posZ, player.direction, player.tweenVelocity);
+                            if (playerMoved == true)
+                            {
+                                //send player details                            
+                                Broadcast("PLAYER_MOVE", player.Id, player.posX, player.posY, player.posZ, player.direction, player.tweenVelocity);
+                            }
+                            else
+                            {
+                                player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
+                            }
                         }
                         else
                         {
-                            player.Send("PLAYER_MOVE_DENIED", player.Id);
+                            player.Send("PLAYER_MOVE_DENIED", player.Id, player.posX, player.posY, player.posZ, player.direction);
                         }
 
                         break;
@@ -194,14 +243,14 @@ namespace Engine
                         if (username != "")
                         {
                             // Verify if is administrator
-                            if (username == "##ADMIN-MASTER##")
+                            if (username == "##adm-gamemaster##")
                             {
                                 // Set administrator info
                                 player.name = "GameMaster";
                                 player.posX = map.posIniX;
                                 player.posY = map.posIniY;
                                 player.posZ = map.posIniZ;
-                                player.type = "char_00001";
+                                player.type = "char_0007";
                                 player.administrator = true;
                             }
                             else

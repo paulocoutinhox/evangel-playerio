@@ -3,6 +3,8 @@ package game.entities
 	import br.com.stimuli.loading.BulkLoader;
 	
 	import flash.display.BitmapData;
+	import flash.events.Event;
+	import flash.sampler.startSampling;
 	
 	import game.server.MessageManager;
 	import game.util.Constants;
@@ -12,8 +14,11 @@ package game.entities
 	import net.flashpunk.FP;
 	import net.flashpunk.Graphic;
 	import net.flashpunk.Mask;
+	import net.flashpunk.Tween;
+	import net.flashpunk.Tweener;
 	import net.flashpunk.graphics.Image;
 	import net.flashpunk.graphics.Spritemap;
+	import net.flashpunk.tweens.misc.VarTween;
 	import net.flashpunk.utils.Input;
 	import net.flashpunk.utils.Key;
 	
@@ -49,6 +54,11 @@ package game.entities
 		
 		public var playerDistanceMovement:Number;
 		
+		public var playerState:int;
+		
+		public static var PLAYER_STATE_STAND:int = 1;
+		public static var PLAYER_STATE_WALK:int = 2;
+		
 		public function Player(type:String)
 		{
 			this.type = type;
@@ -80,34 +90,38 @@ package game.entities
 				if (Input.check(Key.LEFT)) { 
 					lockPlayerMovement();
 					MessageManager.getInstance().getConnection().send("MOVE", 4);
-					move(4);
+					//move(4);
 				} else if (Input.check(Key.RIGHT)) { 
 					lockPlayerMovement();
 					MessageManager.getInstance().getConnection().send("MOVE", 2);
-					move(2);
+					//move(2);
 				} else if (Input.check(Key.UP)) { 
 					lockPlayerMovement();
 					MessageManager.getInstance().getConnection().send("MOVE", 1);
-					move(1);
+					//move(1);
 				} else if (Input.check(Key.DOWN)) { 
 					lockPlayerMovement();
 					MessageManager.getInstance().getConnection().send("MOVE", 3);
-					move(3);
+					//move(3);
 				}
 			}
 				
 			// liberar tecla
 			if (Input.released(Key.LEFT)) { 
 				stop(4);
+				//playerState = PLAYER_STATE_STAND;
 				MessageManager.getInstance().getConnection().send("PLAYER_STOP_MOVE");
 			} else if (Input.released(Key.RIGHT)) { 
 				stop(2);
+				//playerState = PLAYER_STATE_STAND;
 				MessageManager.getInstance().getConnection().send("PLAYER_STOP_MOVE");
 			} else if (Input.released(Key.UP)) { 
 				stop(1);
+				//playerState = PLAYER_STATE_STAND;
 				MessageManager.getInstance().getConnection().send("PLAYER_STOP_MOVE");
 			} else if (Input.released(Key.DOWN)) { 
 				stop(3);
+				//playerState = PLAYER_STATE_STAND;
 				MessageManager.getInstance().getConnection().send("PLAYER_STOP_MOVE");
 			}
 			
@@ -125,29 +139,29 @@ package game.entities
 			}
 		}
 		
-		public function move(direction:int):void
+		public function move(direction:int, posX:int, posY:int):void
 		{
 			this.playerDirection = direction;
 			
 			switch(direction)
 			{
 				case 1:
-					y -= playerDistanceMovement; 
+					createMovementTween(posX, posY);					
 					playerSprite.play("up");
 					break;
 				
 				case 2:
-					x += playerDistanceMovement;
+					createMovementTween(posX, posY);
 					playerSprite.play("right");
 					break;
 				
 				case 3:
-					y += playerDistanceMovement;
+					createMovementTween(posX, posY);
 					playerSprite.play("down");
 					break;
 				
 				case 4:
-					x -= playerDistanceMovement; 
+					createMovementTween(posX, posY); 
 					playerSprite.play("left");
 					break;
 			}
@@ -199,10 +213,12 @@ package game.entities
 			playerWidth  = 32;
 			playerHeight = 48;
 			
-			playerDistanceMovement = 2;
+			playerDistanceMovement = 32;
 			
 			width = playerWidth; 
 			height = playerHeight;
+			
+			playerState = PLAYER_STATE_STAND;
 		}
 	
 		public function lockPlayerMovement():void
@@ -219,5 +235,32 @@ package game.entities
 		{
 			return !playerCanMove;
 		}
+		
+		private function createMovementTween(posX:Number, posY:Number):void
+		{
+			playerState = PLAYER_STATE_WALK;
+				
+			var tweenX:VarTween = new VarTween(onCompleteMoveTween, Tween.ONESHOT);
+			tweenX.tween(this, "x", posX, playerTweenVelocity);
+			addTween(tweenX, false);
+			
+			var tweenY:VarTween = new VarTween(onCompleteMoveTween, Tween.ONESHOT);
+			tweenY.tween(this, "y", posY, playerTweenVelocity);
+			addTween(tweenY, false);
+			
+			tweenX.start();
+			tweenY.start();
+		}
+		
+		private function onCompleteMoveTween():void
+		{
+			unlockPlayerMovement();
+			
+			if (playerId != GameObjects.PLAYER.playerId)
+			{
+				stop(playerDirection);
+			}
+		}
+		
 	}
 }

@@ -42,10 +42,10 @@ namespace Engine
             posY = 0;
             posZ = 0;
             direction = 3;
-            distance = 2;
+            distance = 32;
             tweenVelocity = 0.4;
             loggedIn = false;
-            type = "char_00001";
+            type = "char_0008";
             lastMovement = DateTime.Now;
             movementDelay = 0.3;
             administrator = false;

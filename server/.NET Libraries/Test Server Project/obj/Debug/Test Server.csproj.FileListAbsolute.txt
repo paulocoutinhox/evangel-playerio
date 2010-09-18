@@ -21,9 +21,6 @@ D:\workspace_flex\EvangelFlex\server\.NET Libraries\Test Server Project\obj\Debu
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.exe
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Test Server.pdb
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.dll
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO Development Server.exe
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.dll
-D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\Player.IO GameLibrary.xml
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\bin\Debug\MyGame.pdb
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Debug\ResolveAssemblyReference.cache
 D:\workspace_flex\Evangel\server\.NET Libraries\Test Server Project\obj\Debug\Test Server.exe

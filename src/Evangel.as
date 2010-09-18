@@ -39,6 +39,8 @@ package
 			formPreLoader = new FormPreLoader();
 			formLogin = new FormLogin();
 			
+			GameObjects.PLAYERS = new Array();
+			
 			startLoadResources();
 		}
 		
@@ -67,7 +69,9 @@ package
 		
 		public function errorLogin():void
 		{
-			Constants.LOGGED_IN = true;
+			Constants.LOGGED_IN = false;
+			GameObjects.PLAYERS = new Array();
+			
 			formLogin.getButtonRetry().visible = true;
 		}
 		
@@ -116,6 +120,9 @@ package
 		
 		public function disconnectedGame():void
 		{
+			Constants.LOGGED_IN = false;
+			GameObjects.PLAYERS = new Array();
+			
 			formPreLoader.hide();
 			formMapLoader.hide();
 			

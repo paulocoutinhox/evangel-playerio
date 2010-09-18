@@ -182,7 +182,7 @@ package game.forms
 			if (Constants.DEBUG == true) 
 			{
 				//set developmentsever (Comment out to connect to your server online)			
-				c.multiplayer.developmentServer = "localhost:8184";
+				c.multiplayer.developmentServer = Constants.PLAYER_IO_IP_DEBUG + ":8184";
 				
 				//create or join the room test
 				c.multiplayer.createJoinRoom(
