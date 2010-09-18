@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkLoader>
+	<name>lazy</name>
+	<numConnections>5</numConnections>
+	<logLevel>10</logLevel>
+	<stringSubstitutions>
+		<img_path>D:/www/evangel/assets/data/img/</img_path>
+        <map_path>D:/www/evangel/assets/data/map/</map_path>
+		<tilemap_path>D:/www/evangel/assets/data/tilemap/</tilemap_path>
+	</stringSubstitutions>
+	<allowsAutoIDFromFileName>true</allowsAutoIDFromFileName>
+	
+	<files>
+		
+		<file>
+			<id>char_00001</id>
+            <url>{img_path}char_00001.png</url>            
+		</file>
+		
+		<file>
+			<id>tilemap_00001</id>
+            <url>{tilemap_path}tilemap_00001.png</url>            
+		</file>
+        
+	</files>
+</BulkLoader>
