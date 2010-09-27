@@ -40,7 +40,7 @@ package game.util
 			
 			if (DEBUG == true)
 			{
-				URL = "http://localhost/evangel/";
+				URL = "http://localhost/evangel-playerio/";
 			}
 			else
 			{

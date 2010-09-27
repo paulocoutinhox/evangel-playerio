@@ -2,6 +2,9 @@ package game.entities
 {
 	import br.com.stimuli.loading.BulkLoader;
 	
+	import com.greensock.TweenLite;
+	import com.greensock.easing.Linear;
+	
 	import flash.display.BitmapData;
 	import flash.events.Event;
 	import flash.sampler.startSampling;
@@ -146,22 +149,22 @@ package game.entities
 			switch(direction)
 			{
 				case 1:
-					createMovementTween(posX, posY);					
+					createMovementTweenUsingGreensockTween(posX, posY);					
 					playerSprite.play("up");
 					break;
 				
 				case 2:
-					createMovementTween(posX, posY);
+					createMovementTweenUsingGreensockTween(posX, posY);
 					playerSprite.play("right");
 					break;
 				
 				case 3:
-					createMovementTween(posX, posY);
+					createMovementTweenUsingGreensockTween(posX, posY);
 					playerSprite.play("down");
 					break;
 				
 				case 4:
-					createMovementTween(posX, posY); 
+					createMovementTweenUsingGreensockTween(posX, posY); 
 					playerSprite.play("left");
 					break;
 			}
@@ -236,10 +239,13 @@ package game.entities
 			return !playerCanMove;
 		}
 		
-		private function createMovementTween(posX:Number, posY:Number):void
+		private function createMovementTweenUsingGreensockTween(posX:Number, posY:Number):void
 		{
-			playerState = PLAYER_STATE_WALK;
-				
+			TweenLite.to(this, playerTweenVelocity, { x:posX, y:posY, onComplete: onCompleteMoveTween, immediateRender: true, ease:Linear.easeNone } );
+		}
+		
+		private function createMovementTweenUsingDefaultTween(posX:Number, posY:Number):void
+		{
 			var tweenX:VarTween = new VarTween(onCompleteMoveTween, Tween.ONESHOT);
 			tweenX.tween(this, "x", posX, playerTweenVelocity);
 			addTween(tweenX, false);
@@ -251,6 +257,7 @@ package game.entities
 			tweenX.start();
 			tweenY.start();
 		}
+
 		
 		private function onCompleteMoveTween():void
 		{

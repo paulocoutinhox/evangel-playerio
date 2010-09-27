@@ -4,9 +4,9 @@
 	<numConnections>5</numConnections>
 	<logLevel>10</logLevel>
 	<stringSubstitutions>
-		<img_path>D:/www/evangel/assets/data/img/</img_path>
-        <map_path>D:/www/evangel/assets/data/map/</map_path>
-		<tilemap_path>D:/www/evangel/assets/data/tilemap/</tilemap_path>
+		<img_path>D:/www/evangel-playerio/assets/data/img/</img_path>
+        <map_path>D:/www/evangel-playerio/assets/data/map/</map_path>
+		<tilemap_path>D:/www/evangel-playerio/assets/data/tilemap/</tilemap_path>
 	</stringSubstitutions>
 	<allowsAutoIDFromFileName>true</allowsAutoIDFromFileName>
 	
