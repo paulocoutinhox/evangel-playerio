@@ -44,7 +44,7 @@ package game.util
 			}
 			else
 			{
-				URL = "http://www.prsolucoes.com/evangel/"
+				URL = "http://www.prsolucoes.com/evangel-playerio/"
 			}
 			
 			return URL;

@@ -10,7 +10,7 @@
 
 2 - COPY FOLDER "web" to "htdocs or www" FOLDER OF WEB SERVER INSTALLATION
 
-3 - RENAME THE COPIED FOLDER "web" TO "evangel" ON WEB SERVER "htdocs or www" FOLDER 
+3 - RENAME THE COPIED FOLDER "web" TO "evangel-playerio" ON WEB SERVER "htdocs or www" FOLDER 
 
 4 - OPEN PROJECT OR IMPORT PROJECT ON FLASH BUILDER 4
 
