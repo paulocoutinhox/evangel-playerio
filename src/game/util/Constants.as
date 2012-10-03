@@ -6,7 +6,7 @@ package game.util
 	public class Constants
 	{
 		
-		public static var DEBUG:Boolean = false;
+		public static var DEBUG:Boolean = true;
 		
 		public static var URL_BASE:String = getURLBase();
 		public static var URL_RESOURCES_XML:String = URL_BASE + "assets/data/loader.xml?" + getRandomNumber();
