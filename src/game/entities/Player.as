@@ -1,13 +1,11 @@
 package game.entities
 {
-	import br.com.stimuli.loading.BulkLoader;
-	
 	import com.greensock.TweenLite;
 	import com.greensock.easing.Linear;
 	
 	import flash.display.BitmapData;
-	import flash.events.Event;
-	import flash.sampler.startSampling;
+	
+	import br.com.stimuli.loading.BulkLoader;
 	
 	import game.server.MessageManager;
 	import game.util.Constants;
@@ -15,11 +13,7 @@ package game.entities
 	
 	import net.flashpunk.Entity;
 	import net.flashpunk.FP;
-	import net.flashpunk.Graphic;
-	import net.flashpunk.Mask;
 	import net.flashpunk.Tween;
-	import net.flashpunk.Tweener;
-	import net.flashpunk.graphics.Image;
 	import net.flashpunk.graphics.Spritemap;
 	import net.flashpunk.tweens.misc.VarTween;
 	import net.flashpunk.utils.Input;

@@ -59,7 +59,6 @@ package
 		{
 			formPreLoader.hide();	
 			formLogin.show();
-			formLogin.startLoginProcess();
 		}
 		
 		public function afterLogin():void
@@ -72,7 +71,7 @@ package
 			Constants.LOGGED_IN = false;
 			GameObjects.PLAYERS = new Array();
 			
-			formLogin.getButtonRetry().visible = true;
+			formLogin.getButtonLogin().visible = true;
 		}
 		
 		public function startGame():void
@@ -132,7 +131,7 @@ package
 			formLogin.getLabelStatus().text = "You have been disconnected by server";
 			
 			formLogin.show();
-			formLogin.getButtonRetry().visible = true;
+			formLogin.getButtonLogin().visible = true;
 		}
 		
 		public function loginProcessOK():void

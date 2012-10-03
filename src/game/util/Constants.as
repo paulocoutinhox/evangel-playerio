@@ -1,10 +1,7 @@
 package game.util
 {
-	import com.facebook.Facebook;
-	import com.facebook.data.users.FacebookUser;
-	import com.facebook.utils.FacebookSessionUtil;
+	import playerio.Client;
 	
-	import flash.display.LoaderInfo;
 
 	public class Constants
 	{
@@ -15,15 +12,10 @@ package game.util
 		public static var URL_RESOURCES_XML:String = URL_BASE + "assets/data/loader.xml?" + getRandomNumber();
 		public static var URL_MAPS:String = URL_BASE + "assets/data/map/";
 		
-		public static var FACEBOOK_API_KEY:String = "981d82132db74e49d1bf5151b4372726";
-		public static var FACEBOOK_SECRET_KEY:String = "363f9dd90e9fcadafb4427acb6e2eafa";
-		public static var FACEBOOK_SESSION:FacebookSessionUtil;
-		public static var FACEBOOK_LOADER_INFO:LoaderInfo;		
-		public static var FACEBOOK_USER:FacebookUser;
-		public static var FACEBOOK:Facebook;
-
 		public static var PLAYER_IO_GAME_ID:String = "evangel-6mnllmjwuml67lgcnts6a";
 		public static var PLAYER_IO_IP_DEBUG:String = "localhost";
+		
+		public static var CLIENT:Client;
 		
 		public static var BULK_LOADER_NAME:String = "loader";	
 		

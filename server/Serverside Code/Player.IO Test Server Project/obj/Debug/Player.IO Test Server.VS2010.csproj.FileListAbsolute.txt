@@ -1,0 +1,10 @@
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\Test Server.exe
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\Test Server.pdb
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\newGame.dll
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO Development Server.exe
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\newGame.pdb
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\obj\Debug\Player.IO Test Server.VS2010.csprojResolveAssemblyReference.cache
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.exe
+D:\Thiago\Programas\CSharp\Jogos\evangel-playerio\server\Serverside Code\Player.IO Test Server Project\obj\Debug\Test Server.pdb

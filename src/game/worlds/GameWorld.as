@@ -1,18 +1,11 @@
 package game.worlds
 {
-	import br.com.stimuli.loading.BulkLoader;
-	
-	import flash.display.BitmapData;
-	
-	import game.entities.Map;
-	import game.entities.Player;
 	import game.util.Camera;
 	import game.util.Constants;
 	import game.util.GameObjects;
 	
 	import net.flashpunk.FP;
 	import net.flashpunk.World;
-	import net.flashpunk.graphics.Tilemap;
 	
 	public class GameWorld extends World
 	{

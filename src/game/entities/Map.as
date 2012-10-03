@@ -1,8 +1,8 @@
 package game.entities
 {
-	import br.com.stimuli.loading.BulkLoader;
-	
 	import flash.display.BitmapData;
+	
+	import br.com.stimuli.loading.BulkLoader;
 	
 	import game.forms.FormMapLoader;
 	import game.util.Constants;

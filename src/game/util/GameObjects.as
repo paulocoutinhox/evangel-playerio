@@ -2,7 +2,6 @@ package game.util
 {
 	import game.entities.Map;
 	import game.entities.Player;
-	import game.worlds.GameWorld;
 	
 	public class GameObjects
 	{

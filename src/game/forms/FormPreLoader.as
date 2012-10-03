@@ -1,13 +1,13 @@
 package game.forms
 {
-	import br.com.stimuli.loading.BulkProgressEvent;
-	import br.com.stimuli.loading.lazyloaders.LazyXMLLoader;
-	
 	import com.bit101.components.Label;
 	
 	import flash.events.Event;
 	import flash.events.ProgressEvent;
 	import flash.utils.setTimeout;
+	
+	import br.com.stimuli.loading.BulkProgressEvent;
+	import br.com.stimuli.loading.lazyloaders.LazyXMLLoader;
 	
 	import game.util.Constants;
 	import game.util.GameObjects;

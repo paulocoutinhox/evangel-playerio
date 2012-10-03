@@ -11,21 +11,8 @@ package game.util
 			
 		}
 			
-		public static function randomNumber(low:Number=NaN, high:Number=NaN):Number
+		public static function randomNumber(low:Number, high:Number):Number
 		{
-			var low:Number = low;
-			var high:Number = high;
-			
-			if(isNaN(low))
-			{
-				throw new Error("low must be defined");
-			}
-			
-			if(isNaN(high))
-			{
-				throw new Error("high must be defined");
-			}
-			
 			return Math.round(Math.random() * (high - low)) + low;
 		}
 		
