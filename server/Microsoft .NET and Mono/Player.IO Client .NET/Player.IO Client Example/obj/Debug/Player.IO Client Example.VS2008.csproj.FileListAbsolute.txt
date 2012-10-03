@@ -1,7 +1,0 @@
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\bin\Debug\Player.IO Client Example.exe
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\bin\Debug\Player.IO Client Example.pdb
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\bin\Debug\Player.IO Client.dll
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\bin\Debug\Player.IO Client.xml
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\obj\Debug\Player.IO Client Example.exe
-C:\Documents and Settings\Administrador\Desktop\Player.IO DevPack.pDsjfyzheOPAUuhpSWzL6A\Microsoft .NET and Mono\Player.IO Client .NET\Player.IO Client Example\obj\Debug\Player.IO Client Example.pdb
