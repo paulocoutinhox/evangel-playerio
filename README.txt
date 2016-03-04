@@ -4,6 +4,8 @@
 # THIS IS A MMO GAME PROTOTYPE TO HELP OTHER CREATE OWNER GAME         #
 ########################################################################
 
+# Support with donation
+[![Support with donation](http://donation.pcoutinho.com/images/donate-button.png)](http://donation.pcoutinho.com/)
 
 1 - DOWNLOAD AND INSTALL A WEBSERVER
 (RECOMMENDED: http://www.zend.com/en/products/server-ce/downloads)
